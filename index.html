@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="stylesheets/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Bellota&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <navbar id="navbar" data-section="nav">
+    <ul>
+      <li><a href="#welcome-section" class="home">HOME</a></li>
+      <li><a href="#projects" class="projects">PROJECTS</a></li>
+      <li><a href="#about-me" class="about">ABOUT</a></li>
+      <li><a href="#contact" class="contact">CONTACT</a></li>
+    </ul>
+  </navbar>
+
+  <navbar id="navbar-mobile" data-section="nav">
+    <img class="navbar-svg" src="https://img.icons8.com/ios-glyphs/30/000000/menu.png"/>
+    <ul class="navbar-mobile-ul">
+      <li><a href="#welcome-section" class="home">HOME</a></li>
+      <li><a href="#projects" class="projects">PROJECTS</a></li>
+      <li><a href="#about-me" class="about">ABOUT</a></li>
+      <li><a href="#contact" class="contact">CONTACT</a></li>
+    </ul>
+  </navbar>
+  
+  <div class="application-container">
+    <section id="welcome-section" data-section="home">
+      <h1 class="section-title">Hi, I'm 
+      <span class="name">Marcos Gonzales</span>.</h1>
+      <h1 class="section-title"> I'm a Web Developer.</h1>
+      <div class="welcome-button-group" id="welcome-group-button">
+        <a href="#projects" class="welcome-section-button">View my work <img class="svg" id="svg" src="https://img.icons8.com/ios/50/000000/low-priority.png"></a>
+      </div>
+    </section>
+    <section id="projects" data-section="projects">
+      <h3 class="project-section-title">PROJECTS</h3>
+      <div class="project-container">
+
+        <h3 class="project-title">Pokemon React</h3>
+        <div class="project-tile">
+          <p class="project-description">This is my lastest project. Its a pokedex for Gen 1 pokemon.<span class="project-key-words"> React.Js Axios UseState, UseEffect</span> React is fun. Off to the next project.</p>
+          
+          <div class="image-container">
+            <img src="images/react-pokemon.png" class="project-image" data-project="react pokemon" alt="react-pokemon">
+            <div class="click-me">
+              <p>Nodejs. SQL. Sequelize. Pug. Sendgrid.</p>
+              <a href="https://react-pokemonn.netlify.com" target="_blank" class="project-section-button">React Pokemon</a>
+            </div>
+            <a class="mobile-project-button" href="https://shopsrus.herokuapp.com" target="_blank">Project</a>
+          </div>
+        </div>
+
+        <h3 class="project-title">ShopsRus</h3>
+        <div class="project-tile">
+          <p class="project-description">This is my lastest project. I build a shopping cart using<span class="project-key-words"> Nodejs, SQL with Sequelize, Sendgrid to send emails, and learning DigitalOcean.</span> I really learned the power of sequelize on this project.</p>
+          
+          <div class="image-container">
+            <img src="images/shopsrus.png" class="project-image" data-project="ShoprsRus" alt="ShopsRus">
+            <div class="click-me">
+              <p>Nodejs. SQL. Sequelize. Pug. Sendgrid.</p>
+              <a href="https://shopsrus.herokuapp.com" target="_blank" class="project-section-button">ShopsRus</a>
+            </div>
+            <a class="mobile-project-button" href="https://shopsrus.herokuapp.com" target="_blank">Project</a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Oswalds blog</h3>
+        <div class="project-tile">
+          <p class="project-description">I learned how to set up a server on<span class="project-key-words">DigitalOcean using Heroku with ClearDb.</span> This taught me alot about hosting a website online with DigitalOcean. I learned how to google and read the Docs.</p>
+            
+          <div class="image-container">
+            <img src="images/oswalds-blog.png" class="project-image" data-project="oswald-blog" alt="oswald-blog">
+            <div class="click-me">
+              <p>Nodejs. SQL. Pug.</p>
+              <a href="https://oswalds-blog.herokuapp.com" target="_blank" class="project-section-button">Oswald Blog</a>
+            </div>
+            <a class="mobile-project-button" href="https://oswalds-blog.herokuapp.com" target="_blank">Project</a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Poke Blog</h3>
+        <div class="project-tile">
+          <p class="project-description">This project taught me alot about <span class="project-key-words">API's. Using Axios and Mongoose.</span> I learned all the basics from learning how forms work to using mixins, partials and Pug.</p>
+          <div class="image-container">
+            <img src="images/poke-blog.png" class="project-image" data-project="poke-blog" alt="poke blog">
+            <div class="click-me">
+              <p>Nodejs. Mongoose. Pug.</p>
+              <a href="https://poke-blog.herokuapp.com" target="_blank" class="project-section-button">Poke Blog</a>
+            </div>
+            <a class="mobile-project-button" href="https://poke-blog.herokuapp.com" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me">
+      <h3 class="project-section-title">ABOUT</h3>
+      <p class="about-me-paragraph">Hi I'm currently a quality technical for a medical company called Moog. I'm looking to transition to tech. I got into tech because its fasincating to me and its a challenge. I am currently interested in anything Javascript.</p>
+      <div class="grid-container">
+        <div class="image-container-about-me">
+          <img class="image-me" src="images/me.jpeg">
+        </div>
+        <div class="skills-container">
+          <div class="skills-box">
+            <div class="skills html">
+              <p>HTML</p>
+              <span>90%</span>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills css">
+              <p>CSS</p>
+              <span>80%</span>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills javascript">
+              <p>JAVASCRIPT</p>
+              <span>70%</span>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills nodejs">
+              <p>NODEJS</p>
+              <span>70%</span>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills pug">
+              <p>PUG</p>
+              <span>80%</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h3 class="project-section-title">CONTACT</h3>
+      <p class="contact-phrase">Lets build something <span>together.</span></p>
+      <div class="form-container">
+        <div class="form-paper">
+          <form class="email-form" action="https://formspree.io/xnqgzzgb" method="POST">
+            <label>Email:</label>
+              <input type="text" name="email" placeholder="youremail@youremail.com">
+            <label>Message:</label>
+              <textarea cols="10" rows="10" name="message" placeholder="hello i <3 your work"></textarea>
+            <input type="hidden" name="_next" value="https://shopsrus.herokuapp.com">
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      
+      <ul class="social-media-container">
+        <li><a href="https://twitter.com/marrky_marrk" target="_blank"><img src="images/twitter.svg" class="social-media-icons"></a></li>
+        <li><a href="https://github.com/marcos-gonzales" id="profile-link" target="_blank"><img src="images/github-1.svg" class="social-media-icons"></a></li>
+      </ul>
+    </section>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
