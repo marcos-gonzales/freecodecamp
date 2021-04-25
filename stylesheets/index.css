@@ -392,7 +392,7 @@ section {
 }
 
 .csss,
-.pugs {
+.reacts {
   width: 80%;
   animation-name: css;
   animation-duration: 1.5s;
@@ -561,7 +561,7 @@ section {
   }
 
   .css,
-  .pug {
+  .react {
     width: 80%;
     animation-name: css;
     animation-duration: 1.5s;
@@ -604,7 +604,7 @@ section {
   }
 
   .css,
-  .pug {
+  .react {
     width: 80%;
     animation-name: css;
     animation-duration: 1.5s;
