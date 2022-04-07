@@ -108,6 +108,7 @@ if (clickMe) {
       projectImage[4].style.opacity = 1;
       projectImage[5].style.opacity = 1;
       projectImage[6].style.opacity = 1;
+      projectImage[7].style.opacity = 1;
       project.style.display = 'none';
     });
   });
